@@ -93,7 +93,7 @@
   &[#{$gl-attributeName}*="-column"] {
     flex-direction: column;
     > [#{$gl-attributeName}*="#{$gl-colName}-"] {
-      flex-basis: auto;
+      max-width: none;
     }
   }
   &[#{$gl-attributeName}*="-column-reverse"]{
