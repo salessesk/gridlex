@@ -128,19 +128,19 @@
 
 // FOR COL
 [#{$gl-attributeName}*="#{$gl-colName}-"]{
-  &[#{$gl-attributeName}*="-top"]{
+  &[#{$gl-attributeName}*="-selfTop"]{
     align-self: flex-start;
   }
-  &[#{$gl-attributeName}*="-middle"]{
+  &[#{$gl-attributeName}*="-selfMiddle"]{
     align-self: center;
   }
-  &[#{$gl-attributeName}*="-bottom"]{
+  &[#{$gl-attributeName}*="-selfBottom"]{
     align-self: flex-end;
   }
-  &[#{$gl-attributeName}*="-first"]{
+  &[#{$gl-attributeName}*="-selfFirst"]{
     order: -1;
   }
-  &[#{$gl-attributeName}*="-last"]{
+  &[#{$gl-attributeName}*="-selfLast"]{
     order: 1;
   }
 }
