@@ -24,7 +24,7 @@
 // JUST "COL" & "COL_"
 [#{$gl-attributeName}~="#{$gl-colName}"],
 [#{$gl-attributeName}*="#{$gl-colName}_"]{
-  flex: 1 1 auto;
+  flex: 1 1 0%;
 }
 // JUST "COL-"
 [#{$gl-attributeName}*="#{$gl-colName}-"]{
