@@ -95,6 +95,9 @@
     > [#{$gl-attributeName}*="#{$gl-colName}-"] {
       max-width: none;
     }
+    > [#{$gl-attributeName}~="#{$gl-colName}"] {
+      flex: 1 1 auto;
+    }
   }
   &[#{$gl-attributeName}*="-column-reverse"]{
     flex-direction: column-reverse;
